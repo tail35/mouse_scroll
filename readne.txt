@@ -1,0 +1,2 @@
+1.enviroment.vs2017,qt5.11.2
+2.

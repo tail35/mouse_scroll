@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>triangleClass</class>
+ <widget class="QDialog" name="triangleClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>triangle</string>
+  </property>
+  <widget class="QOPenWidget" name="openGLWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>451</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QOPenWidget</class>
+   <extends>QWidget</extends>
+   <header>qopenwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="triangle.qrc"/>
+ </resources>
+ <connections/>
+</ui>
